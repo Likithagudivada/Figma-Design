@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="divider"><span>YAY! It's BOGO</span></h1>
+
+        <label class="unit-box" data-unit="1">
+            <input type="radio" name="unit" value="1" checked />
+            <div class="box-body">
+                <div class="box-content">
+                    <div class="left">
+                        <strong>1 Unit</strong>
+                        <span class="badge red">10% Off</span><br>
+                        <small>Standard Price</small>
+                    </div>
+                    <div class="right">
+                        <div class="price">$10.00 USD</div>
+                        <div class="striked">$24.00 USD</div>
+                    </div>
+                </div>
+
+                <div class="dropdowns hidden">
+                    <div class="row-labels">
+                        <span></span>
+                        <span>Size</span>
+                        <span>Color</span>
+                    </div>
+                    <div class="row">
+                        <label>#1</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </label>
+
+        <label class="unit-box most-popular" data-unit="2">
+            <input type="radio" name="unit" value="2" />
+            <div class="ribbon">MOST POPULAR</div>
+            <div class="box-body">
+                <div class="box-content">
+                    <div class="left">
+                        <strong>2 Unit</strong>
+                        <span class="badge red">20% Off</span>
+                    </div>
+                    <div class="right">
+                        <div class="price">$18.00 USD</div>
+                        <div class="striked">$24.00 USD</div>
+                    </div>
+                </div>
+
+                <div class="dropdowns hidden">
+                    <div class="row-labels">
+                        <span></span>
+                        <span>Size</span>
+                        <span>Color</span>
+                    </div>
+                    <div class="row">
+                        <label>#1</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label>#2</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </label>
+
+        <label class="unit-box" data-unit="3">
+            <input type="radio" name="unit" value="3" />
+            <div class="box-body">
+                <div class="box-content">
+                    <div class="left">
+                        <strong>3 Unit</strong>
+                        <span class="badge red">30% Off</span>
+                    </div>
+                    <div class="right">
+                        <div class="price">$24.00 USD</div>
+                        <div class="striked">$24.00 USD</div>
+                    </div>
+                </div>
+
+                <div class="dropdowns hidden">
+                    <div class="row-labels">
+                        <span></span>
+                        <span>Size</span>
+                        <span>Color</span>
+                    </div>
+                    <div class="row">
+                        <label>#1</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label>#2</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label>#3</label>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </label>
+
+        <div class="summary">
+            <p class="free">Free Delivery</p>
+            <p class="total">Total: <span id="totalPrice">$10.00 USD</span></p>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+        <p class="footer">@ Powered by Pumper</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
